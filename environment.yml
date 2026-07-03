@@ -1,0 +1,30 @@
+name: data-driven-water-quality-surveillance
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - statsmodels
+  - joblib
+  - tqdm
+  - requests
+  - pyyaml
+  - openpyxl
+  - xgboost
+  - imbalanced-learn
+  - pip:
+      - mlflow
+      - shap
